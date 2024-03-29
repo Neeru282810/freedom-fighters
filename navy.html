@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+            background-image: url("https://leverageedu.com/blog/wp-content/uploads/2020/08/Indian-Freedom-Fighters-1536x960.png");
+            
+        }
+        h1{
+            background-color: coral;
+            display: flex;
+            justify-content: center;
+        }
+        h4{ 
+            background-color: rgb(221, 146, 119);
+            display: flex;
+            justify-content: center;
+            height: 50px;
+        }
+       .sec{
+        background-color: darkcyan;
+        height: 223px;
+        width: 623px;
+        border-radius: 2rem;
+        margin-left: 303px;
+        margin-top: 800px;
+       
+       }
+       .sec h2{
+        display: flex;
+        justify-content: center;
+        padding: 10px 2px;
+        color: aliceblue;
+       }
+       button{
+           margin-left: 240px;
+           margin-top: 15px;
+           background-color: #ffffff;
+             border: none;
+            color: rgb(17, 16, 16);
+             padding: 12px 24px;
+             text-align: center;
+             text-decoration: none;      
+            font-size: 16px;      
+             cursor: pointer;
+             border-radius: 5px;    
+             border-color: aliceblue;   
+        }
+        button:hover{
+            color: rgb(9, 9, 9);
+            background-color: rgb(51, 221, 234);
+            cursor: pointer;
+        }
+        .secc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-right: 325px;
+            margin-left: 115px;
+            width: 725px;
+            height: 10px;
+        }
+        .secc button{
+            height: 80px;
+            width: 280px;
+        }
+        #back{
+            margin-left: 513px;
+        }
+      
+       
+
+    </style>
+    
+</head>
+<body>
+    <marquee id="time" behavior="scroll" direction="left"  >
+    <h1>INDIAN ARMY FIGHTERS</h1> </marquee>
+   
+
+    <div class="secc">
+
+
+    <a href="./mohan.html"> <button >MOHAN MOKASHI</button></a>
+
+    <a href="./krish.html"> <button> ADMIRAL KRISHNAN</button></a>
+
+    <a href="./pradeep.html"> <button >PRADEEP SINGH </button></a>
+
+    <a href=""> <button >KALYANI SEN</button></a>
+
+    <a href=""> <button >RAJESH DHANKAR</button></a>
+    <a href=""> <button >BABRUBAN YADHAV</button></a>
+    <a href=""> <button >MAHENDRA NATH MULLA</button></a>
+
+
+ 
+   </div>
+
+
+   
+      
+   <div class="sec"> 
+    <h2>NEWS ARTICLES ON  NAVY FIGHTERS  </h2>
+
+    <h4>These ARMY fighters, along with many others, inspired and mobilized millions of Indians to fight for their NATION</h4>
+    
+   <a href="./NAVNEW.html"> <button >CLICK HERE</button></a>
+    </div>
+      <button id="back">BACK TO PREVIEW</button>
+
+
+
+
+      <script>
+        
+        function goback(){
+            window.history.back();
+        }
+        let newbtn = document.getElementById("back");
+        newbtn.addEventListener("click",goback);
+
+
+     
+         var marquee = document.getElementById("time");
+         marquee.scrollAmount = 25;
+         marquee.scrollDelay = 50;
+         marquee.loop = -1; 
+
+
+      </script>
+</body>
+</html>

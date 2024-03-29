@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newspapers</title>
+    <style>
+      
+
+        .sec1{
+            background-color: bisque;
+            height: 420px;
+            width: 550px;
+            color: #dc5d26;
+        }
+        button{
+           margin-left: 555px;
+           margin-top: 20px;
+           background-color: #4CAF50;
+             border: none;
+            color: rgb(17, 16, 16);
+             padding: 12px 24px;
+             text-align: center;
+             text-decoration: none;      
+            font-size: 16px;      
+             cursor: pointer;
+             border-radius: 5px;       
+        }
+        button:hover{
+            color: rgb(9, 9, 9);
+            background-color: coral;
+        }
+        .main{
+            
+            display: flex;
+            align-items: first baseline;
+            
+        }
+        img{
+            height: 320px;
+            width: 320px;
+        }
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.3615YpoaLf2E1-y-Gb9kcQHaEH&pid=Api&P=0" alt="news">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.i6dWtrXL0CYt0NrZb5MsxAHaFj&pid=Api&P=0"> 
+        <img src="https://tse1.mm.bing.net/th?id=OIP.FLkMctnDWIVn5PKFaz3KOwHaER&pid=Api&P=0"> 
+        <img src="https://tse2.mm.bing.net/th?id=OIP.fb96yL44KRQdorBA-rrMBwHaEH&pid=Api&P=0"> 
+        <img src="https://tse4.mm.bing.net/th?id=OIP.vLR2jKWF9fv5PMUqI9AKEgHaKP&pid=Api&P=0"> 
+        <img src="https://tse3.mm.bing.net/th?id=OIP.3615YpoaLf2E1-y-Gb9kcQHaEH&pid=Api&P=0">  
+    
+  </div>
+
+
+    <button id="back">BACK TO PREVIEW</button>
+    
+
+
+
+
+    <script>
+      function goback(){
+          window.history.back();
+      }
+      let newbtn = document.getElementById("back");
+      newbtn.addEventListener("click",goback);
+
+    </script>
+    
+</body>
+</html>
